@@ -23,8 +23,6 @@ weatherForm.addEventListener('submit', (e) => {
         else {
             messageTwo.textContent = data.label
             messageOne.textContent = data.forecast
-            //console.log(data.label)
-            //console.log(data.title)
         }
     })
     })
