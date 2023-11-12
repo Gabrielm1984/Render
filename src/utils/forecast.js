@@ -1,5 +1,5 @@
 const request = require('postman-request')
-require('dotenv').config
+require('dotenv').config()
 
 const forecast = (latitude, longitude, callback) =>{
     const url = 'http://api.weatherstack.com/current?access_key=' + process.env.WEATHERSTACK_API_KEY + '&query='+latitude+','+longitude
